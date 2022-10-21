@@ -11,6 +11,20 @@ const data = [
     title: 'Supermarket Management System',
     github:'https://github.com/bensalah-nabil/Product-cash-Management',
     demo:'https://dribble.com/shots/16673715-Crypto-currency-dashboards-and-Financial-data-visualization'
+  },
+  {
+    id : 2,
+    image: IMG1,
+    title: 'Tool',
+    github:'https://github.com/bensalah-nabil/',
+    demo:'https://dribble.com/shots/16673715-Crypto-currency-dashboards-and-Financial-data-visualization'
+  },
+  {
+    id : 2,
+    image: IMG1,
+    title: 'Tool',
+    github:'https://github.com/bensalah-nabil/',
+    demo:'https://dribble.com/shots/16673715-Crypto-currency-dashboards-and-Financial-data-visualization'
   }
 ]
 
@@ -19,22 +33,28 @@ const portfolio = () => {
     <section id ='portfolio'>
       <h5>A selection of my best projects</h5>
       <h2>Portfolio</h2>
-      {
-        data.map(({id, image, title, github, demo}) => {
-          return (
-            <article key={id} className="portfolio__item">
-            <div className="portfolio__item-image">
-              <img src={image} alt={title} />
-              <h3>{title}</h3>
-              <div className="portfolio__item-cta">
-                <a href={github} className='btn' target='_blank'>Github</a>
-                <a href={demo } className='btn btn-primary' target='_blank'>Live Demo</a>
-              </div>
-            </div>
-        </article>
-          )})
-      }
 
+      <div className='container portfolio__container'>
+        {
+          data.map(({id, image, title, github, demo}) => {
+            return (
+              <article key={id} className="portfolio__item">
+              <div className="portfolio__item-image">
+
+                <img src={image} alt={title} />
+                <h3>{title}</h3>
+
+                <div className="portfolio__item-cta">
+                  <a href={github} className='btn' target='_blank'>Github</a>
+                  <a href={demo } className='btn btn-primary' target='_blank'>Live Demo</a>
+                </div>
+
+              </div>
+
+          </article>
+            )})
+        }
+      </div>
     </section>
   )
      
