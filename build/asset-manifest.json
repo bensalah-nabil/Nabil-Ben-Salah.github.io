@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/bensalah-nabil.github.io/static/css/main.2a3d17df.css",
+    "main.js": "/bensalah-nabil.github.io/static/js/main.923bc84e.js",
+    "static/media/about.jpg": "/bensalah-nabil.github.io/static/media/about.96a7f9f2dcadd9dfef15.jpg",
+    "static/media/me.png": "/bensalah-nabil.github.io/static/media/me.94712910a7564501fdbc.png",
+    "static/media/CV.pdf": "/bensalah-nabil.github.io/static/media/CV.da5f856831339125bdaf.pdf",
+    "static/media/portfolio3.jpg": "/bensalah-nabil.github.io/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "index.html": "/bensalah-nabil.github.io/index.html",
+    "main.2a3d17df.css.map": "/bensalah-nabil.github.io/static/css/main.2a3d17df.css.map",
+    "main.923bc84e.js.map": "/bensalah-nabil.github.io/static/js/main.923bc84e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a3d17df.css",
+    "static/js/main.923bc84e.js"
+  ]
+}
